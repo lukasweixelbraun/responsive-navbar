@@ -31,14 +31,14 @@ body {
   font-size: 2.5rem;
 }
 
-.nav div.main_list {
+.nav div.main-list {
   height: 65px;
   float: right;
   -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
 }
 
-.nav div.main_list ul {
+.nav div.main-list ul {
   width: 100%;
   height: 65px;
   display: flex;
@@ -47,20 +47,20 @@ body {
   padding: 0;
 }
 
-.nav div.main_list ul li {
+.nav div.main-list ul li {
   width: auto;
   height: 65px;
   padding: 0;
   padding-right: 3rem;
 }
 
-.nav div.main_list ul li a {
+.nav div.main-list ul li a {
   text-decoration: none;
   line-height: 65px;
   font-size: 2.4rem;
 }
 
-.navTrigger {
+.nav-menu {
   display: none;
 }
 
@@ -79,17 +79,17 @@ body {
     max-width: 100%;
     padding: 0;
   }
-  .nav.affix .navTrigger {
+  .nav.affix .nav-menu {
     margin-top: 0;
   }
-  .navTrigger {
+  .nav-menu {
     display: block;
     margin-top: 20px;
   }
   .nav div.logo {
     margin-left: 15px;
   }
-  .nav div.main_list {
+  .nav div.main-list {
     width: 100%;
     max-width: 70%;
     width: 400px;
@@ -100,27 +100,27 @@ body {
     height: 0;
     overflow: hidden;
   }
-  .nav div.show_list {
+  .nav div.show-list {
     height: auto;
     display: none;
     -webkit-animation: fadeInRight 0.8s;
     animation: fadeInRight 0.8s;
   }
-  .nav.affix div.main_list {
+  .nav.affix div.main-list {
     box-shadow: -2px 10px 10px black;
     margin-top: 0px;
   }
-  .nav div.main_list ul {
+  .nav div.main-list ul {
     flex-direction: column;
     width: 100%;
     height: 100vh;
     background-position: center top;
   }
-  .nav div.main_list ul li {
+  .nav div.main-list ul li {
     width: 100%;
     text-align: right;
   }
-  .nav div.main_list ul li a {
+  .nav div.main-list ul li a {
     text-align: center;
     width: 100%;
     font-size: 3rem;
@@ -134,7 +134,7 @@ body {
 
 /* Animation */
 
-.navTrigger {
+.nav-menu {
   cursor: pointer;
   width: 30px;
   height: 25px;
@@ -147,7 +147,7 @@ body {
   transition: margin-top 0.4s ease;
 }
 
-.navTrigger i {
+.nav-menu i {
   border-radius: 2px;
   content: '';
   display: block;
@@ -155,14 +155,14 @@ body {
   height: 4px;
 }
 
-.navTrigger i:nth-child(1) {
+.nav-menu i:nth-child(1) {
   -webkit-animation: outT 0.8s backwards;
   animation: outT 0.8s backwards;
   -webkit-animation-direction: reverse;
   animation-direction: reverse;
 }
 
-.navTrigger i:nth-child(2) {
+.nav-menu i:nth-child(2) {
   margin: 5px 0;
   -webkit-animation: outM 0.8s backwards;
   animation: outM 0.8s backwards;
@@ -170,24 +170,24 @@ body {
   animation-direction: reverse;
 }
 
-.navTrigger i:nth-child(3) {
+.nav-menu i:nth-child(3) {
   -webkit-animation: outBtm 0.8s backwards;
   animation: outBtm 0.8s backwards;
   -webkit-animation-direction: reverse;
   animation-direction: reverse;
 }
 
-.navTrigger.active i:nth-child(1) {
+.nav-menu.active i:nth-child(1) {
   -webkit-animation: inT 0.8s forwards;
   animation: inT 0.8s forwards;
 }
 
-.navTrigger.active i:nth-child(2) {
+.nav-menu.active i:nth-child(2) {
   -webkit-animation: inM 0.8s forwards;
   animation: inM 0.8s forwards;
 }
 
-.navTrigger.active i:nth-child(3) {
+.nav-menu.active i:nth-child(3) {
   -webkit-animation: inBtm 0.8s forwards;
   animation: inBtm 0.8s forwards;
 }
@@ -354,16 +354,16 @@ body {
 
 
 
-/* ------   color shema on top  ------ */
+/* ------   DARK color shema on top  ------ */
 
 /* font color on top */
 .nav div.logo a {
   color: #eee;
 }
-.nav div.main_list ul li a {
+.nav div.main-list ul li a {
   color: #eee;
 }
-.nav .navTrigger i {
+.nav .nav-menu i {
   background-color: #eee;
 }
 
@@ -371,30 +371,27 @@ body {
 .nav div.logo a:hover {
   color: #aaa;
 }
-.nav div.main_list ul li a:hover {
+.nav div.main-list ul li a:hover {
   color: #aaa;
 }
 
 
-
-
-
-/* ------   color shema scrolled  ------ */
+/* ------   DARK color shema scrolled  ------ */
 
 @media screen and (max-width:768px) {
-  .nav.affix div.main_list ul {
+  .nav.affix div.main-list ul {
     background-color: #222;
   }
 }
 
 /* font color scrolled */
-.nav.affix div.main_list ul li a {
+.nav.affix div.main-list ul li a {
   color: #ccc;
 }
 .nav.affix div.logo a {
   color: #ccc;
 }
-.nav.affix .navTrigger i {
+.nav.affix .nav-menu i {
   background-color: #ccc;
 }
 
@@ -404,7 +401,7 @@ body {
 }
 
 /* hover color scrolled */
-.nav.affix div.main_list ul li a:hover {
+.nav.affix div.main-list ul li a:hover {
   color: #888;
 }
 .nav.affix div.logo a:hover {
@@ -415,16 +412,16 @@ body {
 
 
 
-/* ------  light color shema on top  ------ */
+/* ------  LIGHT color shema on top  ------ */
 
 /* font color on top */
 .nav.light div.logo a {
   color: #111;
 }
-.nav.light div.main_list ul li a {
+.nav.light div.main-list ul li a {
   color: #111;
 }
-.nav.light .navTrigger i {
+.nav.light .nav-menu i {
   background-color: #111;
 }
 
@@ -432,28 +429,27 @@ body {
 .nav.light div.logo a:hover {
   color: #555;
 }
-.nav.light div.main_list ul li a:hover {
+.nav.light div.main-list ul li a:hover {
   color: #555;
 }
 
 
-
-/* ------   light color shema scrolled  ------ */
+/* ------   LIGHT color shema scrolled  ------ */
 
 @media screen and (max-width:768px) {
-  .nav.light.affix div.main_list ul {
+  .nav.light.affix div.main-list ul {
     background-color: #eee;
   }
 }
 
 /* font color scrolled */
-.nav.light.affix div.main_list ul li a {
+.nav.light.affix div.main-list ul li a {
   color: #111;
 }
 .nav.light.affix div.logo a {
   color: #111;
 }
-.nav.light.affix .navTrigger i {
+.nav.light.affix .nav-menu i {
   background-color: #111;
 }
 
@@ -463,7 +459,7 @@ body {
 }
 
 /* hover color scrolled */
-.nav.light.affix div.main_list ul li a:hover {
+.nav.light.affix div.main-list ul li a:hover {
   color: #666;
 }
 .nav.light.affix div.logo a:hover {

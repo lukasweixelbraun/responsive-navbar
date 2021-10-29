@@ -13,7 +13,7 @@ gulp.task('css', function() {
   ];
   return gulp.src('./css/*.css')
     .pipe(postcss(plugin))
-    .pipe(gulp.dest('./public'));
+    .pipe(gulp.dest('./min'));
 });
 
 gulp.task('serve', gulp.series('css'), function() {

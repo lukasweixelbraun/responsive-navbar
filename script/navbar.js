@@ -1,8 +1,8 @@
 document.addEventListener("DOMContentLoaded", function() { 
-  $('.navTrigger').click(function () {
+  $('.nav-menu').click(function () {
     $(this).toggleClass('active');
-    $("#mainListDiv").toggleClass("show_list");
-    $("#mainListDiv").fadeIn();
+    $("#nav-list").toggleClass("show-list");
+    $("#nav-list").fadeIn();
   });
 });
 
