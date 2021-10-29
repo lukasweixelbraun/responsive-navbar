@@ -1,0 +1,33 @@
+{
+  "name": "responsive-navbar",
+  "version": "1.0.0",
+  "description": "Responsive Navbar",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "autoprefixer": "^10.3.7",
+    "postcss": "^8.3.11",
+    "postcss-100vh-fix": "^1.0.2",
+    "postcss-cli": "^9.0.1",
+    "postcss-import": "^14.0.2",
+    "postcss-nesting": "^8.0.1"
+  },
+  "devDependencies": {
+    "cssnano": "^5.0.8",
+    "gulp": "^4.0.2",
+    "gulp-postcss": "^9.0.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lukasweixelbraun/responsive-navbar.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lukasweixelbraun/responsive-navbar/issues"
+  },
+  "homepage": "https://github.com/lukasweixelbraun/responsive-navbar#readme"
+}
