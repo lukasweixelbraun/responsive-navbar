@@ -3,6 +3,8 @@
 ### HTML example
 Following html code is an example of how to implement this navbar. Add the class `light` for a white navbar. If you do not add this class the navbar will be dark.
 
+[Live Demo](https://jsfiddle.net/LukasWeixelbraun/Lm14qsny/3/)
+
 ```html
 <!DOCTYPE html>
 <html lang="en">
@@ -13,10 +15,10 @@ Following html code is an example of how to implement this navbar. Add the class
     ...
 
     <!-- Dependencies for Navbar -->
-    <link href="https://raw.githubusercontent.com/lukasweixelbraun/responsive-navbar/main/min/navbar.css" rel="stylesheet">
+    <link type="text/css" href="https://rawcdn.githack.com/lukasweixelbraun/responsive-navbar/6949410a9b76d30dba76b50c626212e8a5184930/min/navbar.css" rel="stylesheet">
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-    <script src="https://raw.githubusercontent.com/lukasweixelbraun/responsive-navbar/main/script/navbar.js"></script>
+    <script type="text/javascript" src="https://rawcdn.githack.com/lukasweixelbraun/responsive-navbar/6949410a9b76d30dba76b50c626212e8a5184930/script/navbar.js"></script>
     
     ...
   </head>
