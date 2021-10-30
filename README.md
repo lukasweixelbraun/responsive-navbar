@@ -3,6 +3,8 @@
 ### HTML example
 Following html code is an example of how to implement this navbar. Add the class `light` for a white navbar. If you do not add this class the navbar will be dark.
 
+[Live Demo](https://jsfiddle.net/LukasWeixelbraun/Lm14qsny/3/)
+
 ```html
 <!DOCTYPE html>
 <html lang="en">
