@@ -88,7 +88,8 @@ body {
     margin-top: 20px;
   }
   .nav div.logo {
-    margin-left: 15px;
+    margin-left: 0;
+    padding-left: 0;
   }
   .nav div.main-list {
     width: 100%;
@@ -350,6 +351,7 @@ body {
 /* affix styles */
 .affix {
   padding: 0;
+  box-shadow: #222 0px -2px 20px;
 }
 
 
