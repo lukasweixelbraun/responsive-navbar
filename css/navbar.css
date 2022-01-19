@@ -80,6 +80,9 @@ body {
     max-width: 100%;
     padding: 0;
   }
+  .nav > .container {
+    max-width: 700px !important;
+  }
   .nav.affix .nav-menu {
     margin-top: 0;
   }
@@ -130,6 +133,12 @@ body {
   }
   .nav div.media_button {
     display: block;
+  }
+}
+
+@media (min-width: 992px) {
+  .nav > .container {
+    max-width: 900px !important;
   }
 }
 
