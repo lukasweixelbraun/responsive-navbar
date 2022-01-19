@@ -1,15 +1,15 @@
 document.addEventListener("DOMContentLoaded", function() { 
-  $('.nav-menu').click(function () {
-    $(this).toggleClass('active');
-    $("#nav-list").toggleClass("show-list");
-    $("#nav-list").fadeIn();
+  document.querySelector('.nav-menu').click(function () {
+    document.querySelector(this).classList.toggle('active');
+    document.querySelector("#nav-list").classList.toggle("show-list");
+    document.querySelector("#nav-list").fadeIn();
   });
 });
 
-$(window).scroll(function() {
-  if ($(document).scrollTop() > 50) {
-    $('.nav').addClass('affix');
+document.querySelector(window).scroll(function() {
+  if (document.querySelector(document).scrollTop > 50) {
+    document.querySelector('.nav').classList.add('affix');
   } else {
-    $('.nav').removeClass('affix');
+    document.querySelector('.nav').removeClass('affix');
   }
 });
