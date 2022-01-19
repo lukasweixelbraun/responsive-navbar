@@ -4,8 +4,6 @@ body {
   padding: 0;
   box-sizing: border-box;
   font-family: "Quicksand", sans-serif;
-  font-size: 62.5%;
-  font-size: 10px;
 }
 
 /* Navbar section */
@@ -16,7 +14,7 @@ body {
   position: fixed;
   line-height: 65px;
   text-align: center;
-  z-index: 100;
+  z-index: 10;
 }
 
 .nav > .container {
@@ -27,13 +25,13 @@ body {
   float: left;
   width: auto;
   height: auto;
-  padding-left: 3rem;
+  padding-left: 1.875rem;
   max-height: 65px;
 }
 
 .nav div.logo a {
   text-decoration: none;
-  font-size: 2.5rem;
+  font-size: 1.5625rem;
 }
 
 .nav div.main-list {
@@ -56,13 +54,13 @@ body {
   width: auto;
   height: 65px;
   padding: 0;
-  padding-right: 3rem;
+  padding-right: 1.875rem;
 }
 
 .nav div.main-list ul li a {
   text-decoration: none;
   line-height: 65px;
-  font-size: 2.4rem;
+  font-size: 1.5rem;
 }
 
 .nav-menu {
@@ -81,27 +79,27 @@ body {
 
 @media (max-width:1300px) {
   .nav div.main-list ul li a {
-    font-size: 2rem;
+    font-size: 1.25rem;
   }
 
   .nav div.logo {
-    padding-left: 2rem;
+    padding-left: 1.25rem;
   }
 }
 
 @media (max-width:1150px) {
   .nav div.main-list ul li a {
-    font-size: 1.6rem;
+    font-size: 1rem;
   }
 
   .nav div.logo {
-    padding-left: 1.5rem;
+    padding-left: .9375rem;
   }
 }
 
 @media (max-width:1050px) {
   .nav div.main-list ul li a {
-    font-size: 1.3rem;
+    font-size: .8125rem;
   }
 
   .nav div.logo {
@@ -168,7 +166,7 @@ body {
   .nav div.main-list ul li a {
     text-align: center;
     width: 100%;
-    font-size: 3rem;
+    font-size: 1.875rem;
     padding: 20px;
   }
   .nav div.media_button {
